@@ -1,6 +1,9 @@
 import game_framework
 import game_world
+import play_mode
 from pico2d import *
+
+KEY_TO_BALL_KIND = {SDLK_0: 0, SDLK_1: 1, SDLK_2: 2}
 
 image = None
 
@@ -29,6 +32,8 @@ def handle_events():
             game_framework.quit()
         elif event.type == SDL_KEYDOWN and event.key == SDLK_i:
             game_framework.pop_mode()
+        elif event.type == SDL_KEYDOWN and event.key in KEY_TO_BALL_KIND:
+            play_mode.boy.ball_kind = KEY_TO_BALL_KIND[event.key]
 
 def pause():
     pass
