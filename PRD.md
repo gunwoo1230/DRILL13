@@ -68,14 +68,14 @@ logo_mode -> title_mode -> play_mode --(P)--> pause_mode     (게임 정지)
 ## 5. 진행 상황
 - [x] DRILL13_1
 - [x] DRILL13_2
-- [ ] DRILL13_3
-- [ ] DRILL13_4
-- [ ] DRILL13_5
-- [ ] DRILL13_6
-- [ ] DRILL13_7
-- [ ] DRILL13_8
-- [ ] DRILL13_9
-- [ ] DRILL13_10
-- [ ] DRILL13_11
-- [ ] DRILL13_12
-- [ ] DRILL13_13
+- [x] DRILL13_3
+- [x] DRILL13_4
+- [x] DRILL13_5
+- [x] DRILL13_6
+- [x] DRILL13_7
+- [x] DRILL13_8
+- [x] DRILL13_9
+- [x] DRILL13_10
+- [x] DRILL13_11
+- [x] DRILL13_12
+- [x] DRILL13_13
