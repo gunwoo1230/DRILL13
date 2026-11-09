@@ -2,12 +2,16 @@ import game_framework
 import game_world
 from pico2d import *
 
+image = None
+
 
 def init():
-    pass
+    global image
+    image = load_image('item_select.png')
 
 def finish():
-    pass
+    global image
+    del(image)
 
 def update():
     game_world.update()
