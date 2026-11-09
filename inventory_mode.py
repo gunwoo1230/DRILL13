@@ -10,7 +10,7 @@ def finish():
     pass
 
 def update():
-    pass
+    game_world.update()
 
 def render():
     clear_canvas()
