@@ -13,7 +13,9 @@ def update():
     pass
 
 def render():
-    pass
+    clear_canvas()
+    game_world.render()
+    update_canvas()
 
 def handle_events():
     events = get_events()
